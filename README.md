@@ -3,10 +3,12 @@ This function downloads selected market data from www.stooq.pl / www.stooq.com a
 
 Recquired library - pandas
 
+getStooqData(symbol: string, start: string, end: string, freq: char)
+
 Parameters
 ----------
 symbol : string
-Selected symbol
+- Selected symbol
 start : string 
 Start date, format yyyymmdd
 end : string
@@ -21,9 +23,11 @@ Return pandas dataframe with OHLC prices and Date as index.
   
 Examples
 -------
+```python
 getStooqData('MSFT.US', '20190120', '20190520', 'd') # use daily data
 
 getStooqData('BTC.V', '20190120', '20190520', 'y') # use yearly data
 
 [code]getStooqData('EURDKK', '20190120', '20190520', 'w')[/code] # use weekly data
+```
 

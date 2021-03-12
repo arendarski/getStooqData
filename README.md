@@ -25,5 +25,5 @@ getStooqData('MSFT.US', '20190120', '20190520', 'd') # use daily data
 
 getStooqData('BTC.V', '20190120', '20190520', 'y') # use yearly data
 
-getStooqData('EURDKK', '20190120', '20190520', 'w') # use weekly data
-"""
+[code]getStooqData('EURDKK', '20190120', '20190520', 'w')[/code] # use weekly data
+

@@ -7,14 +7,17 @@ getStooqData(symbol: string, start: string, end: string, freq: char)
 
 Parameters
 ----------
-symbol : string
-- Selected symbol
-start : string 
-Start date, format yyyymmdd
-end : string
-End date, format yyyymmdd
-freq : string
-period: d, w, m, y
+**symbol : string**
+Selected symbol
+
+**start : string** 
+Start date in format yyyymmdd
+
+**end : string**
+End date in format yyyymmdd
+
+**freq : string**
+timeframe: d, w, m, y
 
 Returns
 -------
@@ -28,6 +31,6 @@ getStooqData('MSFT.US', '20190120', '20190520', 'd') # use daily data
 
 getStooqData('BTC.V', '20190120', '20190520', 'y') # use yearly data
 
-[code]getStooqData('EURDKK', '20190120', '20190520', 'w')[/code] # use weekly data
+getStooqData('EURDKK', '20190120', '20190520', 'w') # use weekly data
 ```
 
